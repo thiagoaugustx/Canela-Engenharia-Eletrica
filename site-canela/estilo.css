@@ -7,7 +7,8 @@ body, html{
 }
 header{
 	background-color: rgb(4, 42, 62);
-	display: fl;
+    z-index: 10;
+    width: 100%;
 }
 header > img{
 	width: 100px;
@@ -111,7 +112,6 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
 -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
 -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
-
 }
 /* SLIDER */
 .CSSgal .slider {
@@ -253,8 +253,7 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 width: 100%;
 }
 .blocos{
-	display: flex;
-	width: 1366px;
+	orientation: column;
 	margin: 0 auto !important;
 	justify-content: space-around;
 }
@@ -274,10 +273,9 @@ width: 100%;
 }
 .blocoservicos{
 	width: 350px;
-	height: 300px;
 	margin: 0 auto;
 	border-radius: 10px;
-	margin-top: 20px;
+    margin-top: 200px;
 }
 
 .blococards {
@@ -287,7 +285,6 @@ width: 100%;
 	align-items : center;
 	justify-content : center;
 	flex-warp: warp;
-	margin-top: 90px;
   }
   
   .blococards .card {
@@ -335,7 +332,7 @@ width: 100%;
   }
   
   .blococards .card:hover .content {
-	 margin-top : 30px;
+	 margin-top : 50px;
 	 visibility : visible;
 	 opacity : 1;
 	 transition-delay: 0.2s;
@@ -383,21 +380,22 @@ width: 100%;
         
 /* O QUE FAZEMOS */
 /* RODAPE */
+
 .container{
-	width: 100%;
+
 }
 .blocordp{
 	background-color: rgb(4, 42, 62);
+    margin-top: 1200px;
 }
 .rodape{
 	display: flex;
 	margin: 0 auto !important;
-	width: 1366px;
 	justify-content: space-around;
 	height: 330px;
 }
 .logordp img{
-	width: 200px;
+	width: 100px;
 }
 
 .logordp{
@@ -415,7 +413,7 @@ width: 100%;
 	text-decoration: none;
 	color: #fff;
 	font-weight: 600;
-	font-size: small;
+	font-size: xx-small;
 }
 .listrodape ul li a:hover{
 	color: #face55;
@@ -433,7 +431,7 @@ width: 100%;
 	color: #fff;
 }
 .redes img{
-	width: 50px;
+	width: 30px;
 	margin-top: 10px;
 
 }

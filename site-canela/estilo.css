@@ -270,9 +270,7 @@ width: 100%;
 	width: 100%;
 	margin-top: -2px;
 	height: 2000px;
-	background-image: url(imgs/fundoazul2.jpg);
-	background-size: cover;
-}
+background-color: rgb(4, 42, 62);}
 .nossosservicos h1{
 	text-align: center;
 	padding: 80px;

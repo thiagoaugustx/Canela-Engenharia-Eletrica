@@ -1,5 +1,5 @@
 body{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* MENU */ 
 *{ margin: 0px;
@@ -51,6 +51,12 @@ menu > ul > li > a {
 	background-color: rgb(4, 42, 62);
 	color: #fff;
 	border-top: 2px solid #feba0084;
+	font-weight: 700;
+}
+
+menu > ul > li > a:hover {
+	color: #face55;
+	transition: 0.4s;
 }
 /* FIM DO MENU */ 
 	
@@ -101,8 +107,7 @@ menu > ul > li > a {
 
 /* BANNER */
 *{box-sizing: border-box; -webkit-box-sizing: border-box; }
-html, body { height: 100%; }
-body { margin: 0; font: 16px/1.3 sans-serif; }
+
 
 
 .CSSgal {
@@ -249,17 +254,24 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 /* NOSSOS SERVIÇOS */
 .container{
 width: 100%;
+
 }
 .blocos{
 	orientation: column;
 	margin: 0 auto !important;
 	justify-content: space-around;
+	margin-top: -130px !important;
+	
 }
 
 .nossosservicos{
-	background-color: rgb(4, 42, 62);
+	
 	border-radius: 0 0 90px 0;
 	width: 100%;
+	margin-top: -2px;
+	height: 2000px;
+	background-image: url(imgs/fundoazul2.jpg);
+	background-size: cover;
 }
 .nossosservicos h1{
 	text-align: center;
@@ -267,22 +279,22 @@ width: 100%;
 	color: #fff;
     font-size: xx-large;
     font-weight: 600;
+	padding: 50px;
 }
 .blocoservicos{
-	width: 350px;
 	margin: 0 auto;
 	border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .blococards {
 	position : relative;
-	width : 100%;
 	display : flex;
 	align-items : center;
 	justify-content : center;
 	flex-warp: warp;
-    margin-top: 120px;
+    margin-top: -80px;
+	display: block;
 
   }
   
@@ -291,15 +303,17 @@ width: 100%;
 	max-width : 300px;
 	height : 215px;  
 	background-color : #face55;
-	display : flex;
 	flex-direction : column;
 	box-shadow : 0 5px 20px rgba(0,0,0,0.5);
 	transition : 0.3s ease-in-out;
 	border-radius : 15px;
-
+	display: block;
+	margin: 0 auto;
+	margin-top: -80px;
   }
+
   .blococards .card:hover {
-	height : 320px;    
+	height : 350px;    
   }
   
   
@@ -311,6 +325,7 @@ width: 100%;
 	left: 20px;
 	box-shadow : 0 5px 20px rgba(0,0,0,0.2);
 	z-index : 1;
+	display: block;
   }
   
   .blococards .card .image img {

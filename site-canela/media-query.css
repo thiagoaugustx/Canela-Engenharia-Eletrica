@@ -1,2 +1,31 @@
 @charset "UTF-8";
 
+@media (min-width: 768px){
+
+  }
+
+
+
+  @media (min-width: 1024px){
+    .container{
+        
+    }
+
+    .carrossel-clientes{
+
+    }
+
+    .nossosclientes{
+
+    }
+
+    .sliderr{
+        display: flex;
+
+    }
+    .slider__inner{
+
+          }
+    }
+
+

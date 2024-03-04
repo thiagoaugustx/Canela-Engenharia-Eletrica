@@ -14,7 +14,7 @@ nav{
 	height: 80px;
 	width: 100%;
 	position: fixed;
-	z-index: 10;
+	z-index: 12;
 
   }
   label.logo img{
@@ -57,6 +57,8 @@ nav{
 	cursor: pointer;
 	display: none;
   }
+
+
   #check{
 	display: none;
   }
@@ -81,7 +83,7 @@ nav{
 	  left: -100%;
 	  text-align: center;
 	  transition: all .5s;
-	  z-index: 10;
+	  z-index: 11;
 	}
 	nav ul li{
 	  display: block;
@@ -113,7 +115,7 @@ nav{
 	display:block; 
    }
    .btn-whatsapp {
-	   z-index: 14;
+	   z-index: 15;
 	   position:fixed; 
 	   right:5px; 
 	   bottom:30px; 

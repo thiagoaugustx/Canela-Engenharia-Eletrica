@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    i#icone{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
+    menu#itens{
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+}

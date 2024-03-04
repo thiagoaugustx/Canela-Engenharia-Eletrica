@@ -1,161 +1,110 @@
-@charset "UTF-8";
-
-*{
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body html{
-
+body{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* MENU */ 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-.container2 {
-  max-width: 1050px;
-  width: 90%;
-  margin: auto;
+*{padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	
 }
+nav{
+	background: #022d4de4;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 12;
 
-.navbar {
-  width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-}
+  }
+  label.logo img{
+	color: white;
+	width: 110px;
+	line-height: 80px;
+	margin-left: 120px;
+	margin-top: -10px;
+  }
+  nav ul{
+	float: right;
+	margin-right: 20px;
 
-.nav-container2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 62px;
-}
-
-.navbar .menu-items {
-  display: flex;
-}
-
-.navbar .nav-container2 li {
-  list-style: none;
-}
-
-.navbar .nav-container2 a {
-  text-decoration: none;
-  color: #0e2431;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding: 0.7rem;
-}
-
-.navbar .nav-container2 a:hover{
-    font-weight: bolder;
-}
-
-.nav-container2 {
-  display: block;
-  position: relative;
-  height: 60px;
-}
-
-.nav-container2 .checkbox {
-  position: absolute;
-  display: block;
-  height: 32px;
-  width: 32px;
-  top: 20px;
-  left: 20px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.nav-container2 .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 17px;
-  left: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.nav-container2 .hamburger-lines .line {
-  display: block;
-  height: 4px;
-  width: 100%;
-  border-radius: 10px;
-  background: #0e2431;
-}
-
-.nav-container2 .hamburger-lines .line1 {
-  transform-origin: 0% 0%;
-  transition: transform 0.4s ease-in-out;
-}
-
-.nav-container2 .hamburger-lines .line2 {
-  transition: transform 0.2s ease-in-out;
-}
-
-.nav-container2 .hamburger-lines .line3 {
-  transform-origin: 0% 100%;
-  transition: transform 0.4s ease-in-out;
-}
-
-.navbar .menu-items {
-  padding-top: 120px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-  height: 100vh;
-  width: 100%;
-  transform: translate(-150%);
-  display: flex;
-  flex-direction: column;
-  margin-left: -40px;
-  padding-left: 50px;
-  transition: transform 0.5s ease-in-out;
-  text-align: center;
-}
-
-.navbar .menu-items li {
-  margin-bottom: 1.2rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.logo {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  font-size: 1.2rem;
-  color: #0e2431;
-}
-
-.nav-container2 input[type="checkbox"]:checked ~ .menu-items {
-  transform: translateX(0);
-}
-
-.nav-container2 input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-  transform: rotate(45deg);
-}
-
-.nav-container2 input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-  transform: scaleY(0);
-}
-
-.nav-container2 input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-  transform: rotate(-45deg);
-}
-
-.nav-container2 input[type="checkbox"]:checked ~ .logo{
-  display: none;
-}
-
+  }
+  nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+  }
+  nav ul li a{
+	color: white;
+	font-size: 15px;
+	padding: 7px 33px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: 600;
+  
+  }
+  a.ativo,a:hover{
+	background: #face55;
+	transition: 0.7s;
+	border-radius: 10px;
+  }
+  .checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+  }
+  #check{
+	display: none;
+  }
+  @media (max-width: 952px){
+	label.logo{
+	  width: 5px;
+  }
+	nav ul li a{
+	  font-size: 16px;
+	}
+  }
+  @media (max-width: 858px){
+	.checkbtn{
+	  display: block;
+	}
+	ul{
+	  position: fixed;
+	  width: 100%;
+	  height: 100vh;
+	  background: #002b56ef;
+	  top: 80px;
+	  left: -100%;
+	  text-align: center;
+	  transition: all .5s;
+	  z-index: 11;
+	}
+	nav ul li{
+	  display: block;
+	  margin: 50px 0;
+	  line-height: 30px;
+	}
+	nav ul li a{
+	  font-size: 20px;
+	}
+	a:hover,a.active{
+	  background: none;
+	  color: #0082e6;
+	}
+	#check:checked ~ ul{
+	  left: 0;
+	}
+  }
+  section{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: calc( - 80px);
+  }
 /* FIM DO MENU */ 
-
-
-
 	
 /* BOTÃO WHATSAPP */ 
 .btn-whatsapp a {

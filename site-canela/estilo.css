@@ -124,7 +124,7 @@ body html{
   font-weight: 500;
 }
 
-.logo {
+nav > .logo {
   position: absolute;
   top: 5px;
   right: 15px;
@@ -354,11 +354,10 @@ width: 100%;
 
 }
 .blocos{
-	orientation: column;
+	orientation: inline-block;
 	margin: 0 auto !important;
 	justify-content: space-around;
 	margin-top: -130px !important;
-	
 }
 
 .nossosservicos{
@@ -375,11 +374,12 @@ background-color: rgb(4, 42, 62);}
     font-size: xx-large;
     font-weight: 600;
 	padding: 50px;
+
 }
 .blocoservicos{
 	margin: 0 auto;
 	border-radius: 10px;
-    margin-top: 300px;
+	display: flex;
 }
 
 .blococards {
@@ -389,7 +389,7 @@ background-color: rgb(4, 42, 62);}
 	justify-content : center;
 	flex-warp: warp;
     margin-top: -80px;
-	display: block;
+	display: flex;
 
   }
   
@@ -398,13 +398,14 @@ background-color: rgb(4, 42, 62);}
 	max-width : 300px;
 	height : 215px;  
 	background-color : #face55;
-	flex-direction : column;
+	display: flex;
 	box-shadow : 0 5px 20px rgba(0,0,0,0.5);
 	transition : 0.3s ease-in-out;
 	border-radius : 15px;
 	display: block;
 	margin: 0 auto;
 	margin-top: -80px;
+
   }
 
   .blococards .card:hover {
@@ -445,6 +446,21 @@ background-color: rgb(4, 42, 62);}
 	 visibility : visible;
 	 opacity : 1;
 	 transition-delay: 0.2s;
+}
+
+
+@media screen and (max-width : 768px ) {
+	.blocos{
+
+	}
+
+	.blocoservicos{
+		
+	}
+
+	.blococards{
+
+	}
 }
 /* */
 .custom-
@@ -672,6 +688,19 @@ background-color: rgb(4, 42, 62);}
   }
 }
 
+	@media screen and (min-width: 768px;) {
+
+		.blocos{
+			display: none;
+		}
+		.blococards{
+			display: flex;
+		}
+
+		.blocos .blococards .card{
+			display: flex;
+		}
+	}
 
 /* NOSSOS CLIENTES */
 
@@ -752,10 +781,22 @@ background-color: rgb(4, 42, 62);}
 	font-weight: 400;
 	margin-top: -6px;	
 }
-
-
 	/* FIM DO RODAPE */
-	
 
+		/* CSS SOBRE */
 	
-	  
+.container{
+
+}
+
+.sobre{
+
+}
+
+.título{
+	background-color: wheat;
+
+}
+
+.titulo h1{
+}

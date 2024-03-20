@@ -43,7 +43,7 @@ nav{
 	font-weight: 600;
   
   }
-  a.ativo,a:hover{
+  .ativo, a:hover {
 	background: #face55;
 	transition: 0.7s;
 	border-radius: 10px;
@@ -161,7 +161,7 @@ nav{
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-	height: 100%; /* Or set a fixed height */
+	height: 710px !important;
 	background-color: #000000;
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
 -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,1);
@@ -296,6 +296,7 @@ nav{
 	text-decoration: none;
 
 }
+
 /* BANNER */
 
 
@@ -309,12 +310,13 @@ nav{
     box-shadow: 0px 5px 50px -30px rgb(0 0 0);
     overflow: hidden;
     position: relative;
-	margin-top: 90px;
+	margin-top: 15px;
 }
 
 .cards{
       display:flex; 
       justify-content: space-around;
+	  padding: 55px;
 	  margin: 0 auto !important;
 	}
 .box .thumbnail , .box .thumbnail a img{
@@ -335,6 +337,7 @@ nav{
     color: #fff;
     text-decoration: none;
     display: block;
+	background-color: #00000000 !important;
 }
 .box .title_and_description h1 a:hover{
     text-decoration: none;
@@ -378,21 +381,21 @@ nav{
   
   .cards{
     display: block;
-	margin-top: 80px !important;
+	margin-top: -70px !important;
 
 }
   .box{
-	margin: 0 auto !important;
+	margin-top: 50px !important;
+
 }
 
-  
-  
- .quemsomos h1{
-	margin-top: 40px !important;
- }
+  .container .s {
+	margin-top: -40px !important;
+
+  }
 
  .txtp{
-	width: 320px !important;
+	width: 410px !important;
  }
   
 }
@@ -447,7 +450,7 @@ nav{
 .quemsomos h1{
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px !important;
+    margin-top: 40px !important;
 	
 }
 .separator{
@@ -475,7 +478,7 @@ nav{
 }
 .nossosclientes{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 110px;
     margin: 0 auto;
 
 }
@@ -489,8 +492,8 @@ nav{
 
 .nossosclientes h1{
     font-style: italic;
-    padding:30px;
     color: rgb(4, 42, 62);
+	margin-top: 30px;
 }
 .sliderr {
 	width: 100%;

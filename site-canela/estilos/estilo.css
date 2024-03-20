@@ -311,13 +311,14 @@ nav{
     overflow: hidden;
     position: relative;
 	margin-top: 15px;
+	margin: 0 auto !important;
 }
 
 .cards{
       display:flex; 
       justify-content: space-around;
-	  padding: 55px;
-	  margin: 0 auto !important;
+	  padding: 0 0 55px 0;
+	  margin-top: 50px !important;
 	}
 .box .thumbnail , .box .thumbnail a img{
     width: 100%;
@@ -381,25 +382,29 @@ nav{
   
   .cards{
     display: block;
-	margin-top: -70px !important;
-
+	margin-top: 50px !important;
 }
   .box{
 	margin-top: 50px !important;
-
 }
 
-  .container .s {
-	margin-top: -40px !important;
+  .container{
 
   }
 
+  .quemsomos{
+	width: 100%;
+  }
+
  .txtp{
-	width: 410px !important;
+	width: 100% !important;
  }
   
 }
-
+#quemsomos{
+	text-align: center;
+	margin-top: 60px;
+}
 /* NOSSOS SERVIÇOS */
 
 /* O QUE FAZEMOS */
@@ -450,7 +455,7 @@ nav{
 .quemsomos h1{
     margin: 0 auto;
     text-align: center;
-    margin-top: 40px !important;
+    margin-top: 10px !important;
 	
 }
 .separator{
@@ -464,7 +469,7 @@ nav{
     margin: 0 auto !important;
     padding: 50px;
     text-align: center;
-	width: 1200px;
+	width: 900px
 }
 
 .txtp p{

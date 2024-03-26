@@ -758,34 +758,34 @@ form .btn-enviar{
 	display: flex;
 	margin: 0 auto !important;
 	justify-content: space-around;
-	height: 330px;
+	height: 250px;
 }
 .logordp img{
 	width: 100px;
 }
 
 .logordp{
-	padding: 30px;
+	padding-top: 60px;
 }
 
 .listrodape{
-	margin-top: 50px;
+	margin-top: 55px;
 
 }
 .listrodape ul{
 	list-style: none;
+	font-size: 18px;
 }
 .listrodape ul li a{
 	text-decoration: none;
 	color: #fff;
-	font-weight: 600;
-	font-size: xx-small;
+	font-weight: 700;
+	font-size: 14px;
 }
 .listrodape ul li a:hover{
 	color: #fcc72f;
 	transition: 0.3s;
-	text-shadow: 0px 0px 5px rgba(250,206,85,0.75);
-
+	background-color: #002739;
 }
 
 
@@ -802,7 +802,7 @@ form .btn-enviar{
 
 }
 .redes img:hover{
-	background-color:fcc72f;
+	background-color: #fcc72f;
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);
@@ -814,12 +814,13 @@ form .btn-enviar{
 	background-color: #fcc72f;
 	height: 20px;
 	padding: 20px;
+	z-index: 11;
 }
 .copy p{
 	color: #ffffff;
-	font-size: x-small;
+	font-size: 10px;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 500;
 	margin-top: -6px;	
 }
 
@@ -1050,3 +1051,7 @@ form .btn-enviar input:hover{
 }
 
 /*  FIM DO ESTILO DO FORMULARIO */
+
+/* ALBUM */
+
+/* ALBUM */

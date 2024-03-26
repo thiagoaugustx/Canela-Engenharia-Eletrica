@@ -431,14 +431,15 @@ nav{
 .formulario{
 	flex-direction: column;
 	width: 100% !important;
+	margin: 0 auto !important;
+
 }
 .imagemform{
-	padding: 20px 4% !important;
+	margin-top: -60px;
 	margin-bottom: -20px;
 }
 .imagemform img{
 	width: 350px !important;
-
 }
 
 .interface{
@@ -962,7 +963,8 @@ form .btn-enviar{
 	-webkit-border-radius: 0px 49px 0px 50px;
 	-moz-border-radius: 0px 49px 0px 50px;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-	}
+	
+}
 .interface{
 	width: 500px;
 

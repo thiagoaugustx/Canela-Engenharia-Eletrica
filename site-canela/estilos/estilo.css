@@ -4,7 +4,7 @@ body{
 /* MENU */ 
 *{	
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
@@ -19,12 +19,15 @@ body{
 	height: 10px;
 }
 nav{
-	background: #022d4de4;
+	background: rgba(4, 42, 62, 0.952);
 	height: 80px;
 	width: 100%;
 	position: fixed;
 	z-index: 12;
-
+  }
+  .menuprincipal{
+	width: 1366px;
+	margin: 0 auto !important;
   }
   label.logo img{
 	color: white;
@@ -37,6 +40,7 @@ nav{
   nav ul{
 	float: right;
 	margin-right: 120px;
+	margin: 0 auto !important;
 
   }
   nav ul li{
@@ -311,7 +315,10 @@ nav{
 
 
 /* NOSSOS SERVIÇOS */
-
+.container{
+	 margin: 0 auto;
+	
+}
 .box{
     width: 300px;
     height: 360px;
@@ -328,7 +335,8 @@ nav{
       display:flex; 
       justify-content: space-around;
 	  padding: 0 0 55px 0;
-	  margin-top: 50px !important;
+	  margin: 0 auto;
+	  width: 1366px;
 	}
 .box .thumbnail , .box .thumbnail a img{
     width: 100%;
@@ -393,6 +401,7 @@ nav{
   .cards{
     display: block;
 	margin-top: 50px !important;
+	width: 100%;
 }
   .box{
 	margin-top: 50px !important;
@@ -482,6 +491,7 @@ nav{
 .quemsomos{
     color: rgb(4, 42, 62);
 	margin: 0 auto !important;
+	width: 13;
 }
 .quemsomos h1{
     text-align: center;
@@ -684,12 +694,14 @@ nav{
 }
 .blocordp{
 	background-color: rgb(4, 42, 62);
+	width: 100%;
 }
 .rodape{
 	display: flex;
 	margin: 0 auto !important;
 	justify-content: space-around;
 	height: 330px;
+	width: 1366px;
 }
 .logordp img{
 	width: 100px;
@@ -701,7 +713,7 @@ nav{
 
 .listrodape{
 	margin-top: 50px;
-
+	
 }
 .listrodape ul{
 	list-style: none;
@@ -710,13 +722,11 @@ nav{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 600;
-	font-size: xx-small;
+	font-size:small;
 }
 .listrodape ul li a:hover{
-	color: #face55;
+	background-color: #face55;
 	transition: 0.3s;
-	text-shadow: 0px 0px 5px rgba(250,206,85,0.75);
-
 }
 
 
@@ -757,53 +767,107 @@ nav{
 
 	/* FIM DO RODAPE */
 
+	.titulo{
+		padding: 50px 10px 10px 0;
+		background-color: #f6c131;
+	}
+	.titulo h1{
+		text-align: center;
+		color: rgb(4, 42, 62);
+		padding: 20px 20px;
+		font-size: 25px;
+		margin-top: 30px;
+	}
+	
 /* SOBRE NOS */
-.container{
 
+.containersb{
+	width: 100%;
 }
 
-.sobre{
+.sobresb{
+	display: flex;
+	padding-top: 80px;
+	width: 850px;
+	margin: 0 auto;
+	height: 620px;
+}
 
-}
-.titulo{
-	padding: 50px 10px 10px 0;
-	background-color: #ffc72e;
-	border-radius: 0 0 40px 40px;
-}
-.titulo h1{
-	text-align: center;
-	color: rgb(4, 42, 62);
-	padding: 20px 20px;
-	font-size: 25px;
-	margin-top: 30px;
-}
 
 .textos h2{
 	color: rgb(4, 42, 62);
 	font-size: 25px;
-	width: 500px;
-
+	font-weight: 800;
 }
 
 .textos{
-	height: 780px;
-	margin-left: 2rem;
-	padding: 30px;
-	width: 500px;
+	width:400px;
+	margin: 0 auto;
 
 }
 .textos p{
-	padding: 30px 0 0 0;
-	word-break:break-word;
-	max-width: 600px;
+	padding: 20px;
 }
-.titulo img{
+.fotossb{
+	margin: 0 auto;
+}
+.fotossb img{
+	width: 350px;
+	border-radius: 20px;
+
 }
 
 /* FIM DO SOBRE NOS */
 
 /* ALBUM */
 
+
+/* BOXS */
+.containerbx{
+	background-color: rgb(4, 42, 62);
+	width: 100%;
+}
+.boxsobre{
+	display: flex;
+	padding-top: 100px;
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.boxs{
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	margin-top: -50px !important;
+	justify-content: space-around;
+
+}
+
+.boxs h3{
+	font-weight:normal;	
+	letter-spacing:2px;
+	color: #fff;
+}
+.boxs h1{
+	font-weight: bolder;
+	font-weight: 900;
+	color: #fff;
+	margin-top: -10px;
+}
+
+.boxs img{
+	width: 120px;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.boxs h2{
+	color: #fff;
+	margin-top: -30px;
+	padding-left: 30px;
+}
+
+
+/* FIM DOS BOXS */
 
 
 /* FIM DO ALBUM */

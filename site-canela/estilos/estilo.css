@@ -4,7 +4,7 @@ body{
 /* MENU */ 
 *{	
 	padding: 0;
-	margin: 0 auto;
+	margin: 0;
 	text-decoration: none;
 	list-style: none;
 	box-sizing: border-box;
@@ -19,15 +19,12 @@ body{
 	height: 10px;
 }
 nav{
-	background: rgba(4, 42, 62, 0.952);
+	background: #022d4de4;
 	height: 80px;
 	width: 100%;
 	position: fixed;
 	z-index: 12;
-  }
-  .menuprincipal{
-	width: 1366px;
-	margin: 0 auto !important;
+
   }
   label.logo img{
 	color: white;
@@ -40,7 +37,6 @@ nav{
   nav ul{
 	float: right;
 	margin-right: 120px;
-	margin: 0 auto !important;
 
   }
   nav ul li{
@@ -315,10 +311,7 @@ nav{
 
 
 /* NOSSOS SERVIÇOS */
-.container{
-	 margin: 0 auto;
-	
-}
+
 .box{
     width: 300px;
     height: 360px;
@@ -335,8 +328,7 @@ nav{
       display:flex; 
       justify-content: space-around;
 	  padding: 0 0 55px 0;
-	  margin: 0 auto;
-	  width: 1366px;
+	  margin-top: 50px !important;
 	}
 .box .thumbnail , .box .thumbnail a img{
     width: 100%;
@@ -401,7 +393,6 @@ nav{
   .cards{
     display: block;
 	margin-top: 50px !important;
-	width: 100%;
 }
   .box{
 	margin-top: 50px !important;
@@ -437,7 +428,75 @@ nav{
 	margin-top: -30px;
 }
 
+.formulario{
+	flex-direction: column;
+	width: 100% !important;
 }
+.imagemform{
+	padding: 20px 4% !important;
+	margin-bottom: -20px;
+}
+.imagemform img{
+	width: 350px !important;
+
+}
+
+.interface{
+	width: 100% !important;
+	padding: 20px;
+}
+form .btn-enviar{
+	text-align: center !important;
+}
+
+/* BOXS */
+	.containerbx{
+
+	}
+	.boxsobre{
+		display: block;
+		flex-direction: column;
+		width: 100% !important;
+
+	}
+	.boxs{
+	}
+
+/* FIM DOS BOXS */
+
+/* SOBRE NÓS */
+.containersb{
+
+}
+
+.sobresb{
+	width: 300px !important;
+	flex-direction: column-reverse;
+	padding-bottom: 100px;
+}
+
+.textos{
+	width: 100% !important;
+}
+
+.textos h2{
+	width: 300px !important;
+}
+
+.textos p{
+	width: 300px !important;
+
+}
+.fotossb{
+
+}
+/*FIM DO SOBRE NÓS */
+
+}
+
+
+
+
 #quemsomos{
 	text-align: center;
 	margin-top: 60px;
@@ -491,7 +550,6 @@ nav{
 .quemsomos{
     color: rgb(4, 42, 62);
 	margin: 0 auto !important;
-	width: 13;
 }
 .quemsomos h1{
     text-align: center;
@@ -694,14 +752,12 @@ nav{
 }
 .blocordp{
 	background-color: rgb(4, 42, 62);
-	width: 100%;
 }
 .rodape{
 	display: flex;
 	margin: 0 auto !important;
 	justify-content: space-around;
 	height: 330px;
-	width: 1366px;
 }
 .logordp img{
 	width: 100px;
@@ -713,7 +769,7 @@ nav{
 
 .listrodape{
 	margin-top: 50px;
-	
+
 }
 .listrodape ul{
 	list-style: none;
@@ -722,11 +778,13 @@ nav{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 600;
-	font-size:small;
+	font-size: xx-small;
 }
 .listrodape ul li a:hover{
-	background-color: #face55;
+	color: #face55;
 	transition: 0.3s;
+	text-shadow: 0px 0px 5px rgba(250,206,85,0.75);
+
 }
 
 
@@ -765,62 +823,70 @@ nav{
 }
 
 
-	/* FIM DO RODAPE */
+/* FIM DO RODAPE */
 
-	.titulo{
-		padding: 50px 10px 10px 0;
-		background-color: #f6c131;
-	}
-	.titulo h1{
-		text-align: center;
-		color: rgb(4, 42, 62);
-		padding: 20px 20px;
-		font-size: 25px;
-		margin-top: 30px;
-	}
-	
 /* SOBRE NOS */
+.container{
 
+}
+
+.sobre{
+
+}
+.titulo{
+	padding: 50px 10px 10px 0;
+	background-color: #ffc72e;
+	
+}
+.titulo h1{
+	text-align: center;
+	color: rgb(4, 42, 62);
+	padding: 20px 20px;
+	font-size: 25px;
+	margin-top: 30px;
+}
 .containersb{
 	width: 100%;
+
 }
 
 .sobresb{
-	display: flex;
+	display: flex !important;
 	padding-top: 80px;
-	width: 850px;
-	margin: 0 auto;
-	height: 620px;
+	width: 1366px;
+	margin: 0 auto !important;
 }
-
 
 .textos h2{
 	color: rgb(4, 42, 62);
 	font-size: 25px;
-	font-weight: 800;
+
 }
 
 .textos{
-	width:400px;
-	margin: 0 auto;
+	height: 480px;
+	padding: 30px;
+	width: 500px;
+	margin: 0 auto !important;
 
 }
 .textos p{
-	padding: 20px;
+	padding: 30px 0 0 0;
+	word-break:break-word;
+	width: 550px;
 }
-.fotossb{
-	margin: 0 auto;
-}
-.fotossb img{
-	width: 350px;
-	border-radius: 20px;
 
+.fotossb{
+	margin: 0 auto !important;
+}
+
+.fotossb img{
+	width: 300px;
+	border-radius: 10px;
+	margin-right: 50px;
 }
 
 /* FIM DO SOBRE NOS */
-
-/* ALBUM */
-
 
 /* BOXS */
 .containerbx{
@@ -870,4 +936,101 @@ nav{
 /* FIM DOS BOXS */
 
 
+
+/* ALBUM */
+
+
+
 /* FIM DO ALBUM */
+
+/* ESTILO DO FORMULARIO */
+.formulario{
+	display: flex;
+	width: 1366px;
+	margin: 0 auto !important;
+
+}
+.imagemform{
+	padding: 100px 5% 0 0 ;
+
+}
+
+.imagemform img{
+	width: 650px;
+	border-radius: 15px;
+	border-radius: 0px 49px 0px 50px;
+	-webkit-border-radius: 0px 49px 0px 50px;
+	-moz-border-radius: 0px 49px 0px 50px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+	}
+.interface{
+	width: 500px;
+
+}
+section.formulario{
+	padding: 80px 4%;
+
+}
+
+.titulo2{
+	padding: 40px 0 0 0;
+
+	text-align: center;
+}
+
+form{
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 40px;
+
+}
+
+form input, textarea{
+	width: 100%;
+	background-color: #022d4d20;
+	border: 0;
+	outline: 0;
+	padding: 20px 20px;
+	border-radius: 12px;
+	color: #022d4d;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+form input::placeholder{
+	color: #3333334b;
+}
+
+form textarea{
+	resize: none;
+	font-size: 15px;
+	height: 200px;
+	font-weight: 600;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+form textarea::placeholder{
+	color: #3333334b;
+}
+
+
+form .btn-enviar{
+	margin-top: 20px;
+	text-align: left;
+}
+
+form .btn-enviar input{
+	width: 120px;
+	background-color: #f2c342;
+	color: #022d4d;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+	
+}
+/*  FIM DO ESTILO DO FORMULARIO */

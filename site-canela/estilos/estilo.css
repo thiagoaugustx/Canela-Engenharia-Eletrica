@@ -19,7 +19,7 @@ body{
 	height: 10px;
 }
 nav{
-	background: #022d4de4;
+	background: #002739f3;
 	height: 80px;
 	width: 100%;
 	position: fixed;
@@ -54,7 +54,7 @@ nav{
   
   }
   .ativo, a:hover {
-	background: #face55;
+	background: #fcc72f;
 	transition: 0.7s;
 	border-radius: 10px;
   }
@@ -315,7 +315,7 @@ nav{
 .box{
     width: 300px;
     height: 360px;
-    background-color: #04406de4;
+    background-color: #002739cf;
     border-radius: 10px;
     box-shadow: 0px 5px 50px -30px rgb(0 0 0);
     overflow: hidden;
@@ -367,14 +367,14 @@ nav{
 .title_and_description .description button{
     font-size: 15px;
     margin-top: 20px;
-    background-color: #face44;
+    background-color: #fcc72f;
     border: none;
     border-radius: 10px;
 
 }
 .title_and_description .description button a{
     font-weight: bold;
-    color: #04406de4;
+    color: #002739d3;
     text-decoration: none;
     padding: 8px 25px;
     display: block;
@@ -530,7 +530,7 @@ form .btn-enviar{
 	}
    
     .oqfazemos a{
-        background-color: #face55;
+        background-color: #fcc72f;
         color: #fff;
         padding: 15px;
         border-radius: 2px;
@@ -558,7 +558,7 @@ form .btn-enviar{
 	
 }
 .separator{
-    background-color: rgb(250, 206, 85);
+    background-color: #fcc72f;
     height: 5px;
     margin: 0 auto;
     width: 70px;
@@ -592,7 +592,7 @@ form .btn-enviar{
 
 }
 .separatorNS {
-    background-color: rgb(250, 206, 85);
+    background-color: #fcc72f;
     height: 5px;
     margin: 0 auto;
     width: 120px;
@@ -601,7 +601,7 @@ form .btn-enviar{
 
 .nossosclientes h1{
     font-style: italic;
-    color: rgb(4, 42, 62);
+    color: #002739;
 	margin-top: 30px;
 }
 .sliderr {
@@ -752,7 +752,7 @@ form .btn-enviar{
 
 }
 .blocordp{
-	background-color: rgb(4, 42, 62);
+	background-color: #002739;
 }
 .rodape{
 	display: flex;
@@ -782,7 +782,7 @@ form .btn-enviar{
 	font-size: xx-small;
 }
 .listrodape ul li a:hover{
-	color: #face55;
+	color: #fcc72f;
 	transition: 0.3s;
 	text-shadow: 0px 0px 5px rgba(250,206,85,0.75);
 
@@ -802,7 +802,7 @@ form .btn-enviar{
 
 }
 .redes img:hover{
-	background-color:#face55c6;
+	background-color:fcc72f;
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);
@@ -811,7 +811,7 @@ form .btn-enviar{
 
 .copy{
 	width: 100%;
-	background-color: rgb(214, 160, 12);
+	background-color: #fcc72f;
 	height: 20px;
 	padding: 20px;
 }
@@ -836,7 +836,7 @@ form .btn-enviar{
 }
 .titulo{
 	padding: 50px 10px 10px 0;
-	background-color: #ffc72e;
+	background-color: #fcc72f;
 	
 }
 .titulo h1{
@@ -891,8 +891,10 @@ form .btn-enviar{
 
 /* BOXS */
 .containerbx{
-	background-color: rgb(4, 42, 62);
+	background-color: #002739;
 	width: 100%;
+	border-radius: 0 0px 30px 30px;
+	
 }
 .boxsobre{
 	display: flex;
@@ -1022,17 +1024,29 @@ form textarea::placeholder{
 form .btn-enviar{
 	margin-top: 20px;
 	text-align: left;
+	
 }
 
 form .btn-enviar input{
 	width: 120px;
-	background-color: #f2c342;
+	background-color: #fcc72f;
 	color: #022d4d;
 	font-weight: 700;
 	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-form .btn-enviar input:hover{
-	
+
+
+	form .btn-enviar:hover{
+  
 }
+form .btn-enviar input:hover{
+	transform: scale(1.01);
+	background-color: #fcc72f;
+	transition: 0.4s;
+	color: #fff;
+
+}
+
 /*  FIM DO ESTILO DO FORMULARIO */

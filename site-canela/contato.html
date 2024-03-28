@@ -26,7 +26,7 @@
       <li><a href="sobre-nos.html">SOBRE</a></li>
       <li><a href="#">SERVIÇOS</a></li>
       <li><a href="album.html">ÁLBUM</a></li>
-      <li><a class="ativo" href="contato.html">CONTATO</a></li>
+      <li><a class="ativo" href="contato.html">ORÇAMENTO</a></li>
     </ul>
   </nav>
   <section></section>
@@ -47,14 +47,16 @@
       <div class="titulo2"><h1>Entraremos em contato!</h1>
           <div class="separator"></div>
       </div>
-      <form method="post" action=""enviar.php>
-        <input type="text" name="nome" id="" placeholder="Seu Nome completo" required>
-        <input type="text" name="email" id="" placeholder="Seu E-mail" required>
-        <input type="text" name="celular" id="" placeholder="Seu Telefone">
-        <textarea name="mensagem" id="" placeholder="Sua mensagem" required></textarea>
-        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+      
+      <form method="POST" action="https://formspree.io/xwkgrooy">
 
+        <input type="text" name="nome" placeholder="Nome Completo">
+        <input type="text" name="Email" placeholder="E-mail">
+        <input type="number" name="telefone" placeholder="Telefone">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
       </form>
+      
     </div>
   </section>
 <!-- FIM DO FORMULARIO -->

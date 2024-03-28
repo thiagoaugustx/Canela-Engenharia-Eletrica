@@ -867,10 +867,10 @@ form .btn-enviar{
 }
 
 .textos{
-	height: 480px;
-	padding: 30px;
 	width: 500px;
 	margin: 0 auto !important;
+	height: 700px;
+
 
 }
 .textos p{
@@ -884,9 +884,10 @@ form .btn-enviar{
 }
 
 .fotossb img{
-	width: 300px;
+	width: 420px;
 	border-radius: 10px;
-	margin-right: 50px;
+	margin-right: 45px;
+	margin-top: 15px;
 }
 
 /* FIM DO SOBRE NOS */
@@ -907,11 +908,10 @@ form .btn-enviar{
 
 .boxs{
 	margin: 0 auto;
-	width: 250px;
-	height: 250px;
-	margin-top: -50px !important;
+	height: 180px;
 	justify-content: space-around;
-
+	width: 200px;
+	margin-top: -60px;
 }
 
 .boxs h3{
@@ -1063,5 +1063,17 @@ form .btn-enviar input:hover{
 /*  FIM DO ESTILO DO FORMULARIO */
 
 /* ALBUM */
+	.tituloalbum{
+		padding-top: 100px;
+	}
+	.tituloalbum h1{
+		text-align: center;
+	}
 
+	.album{
+
+	}
+
+	.album img{
+	}
 /* ALBUM */

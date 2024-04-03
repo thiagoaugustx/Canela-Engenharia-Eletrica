@@ -258,7 +258,7 @@ nav{
 	line-height: 30px;
 	text-decoration: none;
 	text-align: center;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(255, 255, 255, 0.419)1);
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
 	color:#ffffff98;
@@ -461,7 +461,6 @@ nav{
 
 .interface{
 	width: 100% !important;
-	padding: 20px;
 }
 form .btn-enviar{
 	text-align: center !important;
@@ -510,6 +509,59 @@ form .btn-enviar{
 }
 /*FIM DO SOBRE NÓS */
 
+/*RODAPE */
+	.blocordp{
+
+	}
+	.rodape{
+		display: block !important;
+
+	}	
+	.logordp{
+		width: 100%;
+		padding-left: 45%;
+	}
+	.logordp a{
+
+	}
+	.logordp a img{
+		width: 50px;
+		margin-top: -250px;
+
+	}
+
+	.listrodape{
+		width: 100%;
+		z-index: 11;
+		
+	}
+	.redes{
+		display: block;
+		width: 100%;
+	}
+	.redes h5{
+		font-size: 10px;
+		text-align: center;
+	}
+	.redes a{
+		padding-left:15%;
+		padding-right: -15%;
+
+	}
+	.copy{
+		margin: 0 auto !important;
+
+	}
+	.copy p{
+		color:#f8f8f8 !important;
+		margin-top: -12px !important;
+		font-weight: 600 !important;
+		
+	}
+	.copy p a{
+		color: #f8f8f8 !important;
+		font-weight: 600 !important;
+	}
 }
 
 
@@ -987,51 +1039,63 @@ form .btn-enviar{
 .formulario{
 	display: flex;
 	background-color:#ffffff;
-
+	width: 100%;
+	height: 770px;
 }
-.caixabox{
-	width: 1366px;
+.formctn{
+	width: 1000px;
 	margin: 0 auto !important;
 	display: flex;
-	height: 625px;
-	padding: 10px 50px 80px 50px;
-	margin-left: -15px;
-	
--webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
--moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
+	margin-top: 15px !important;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.caixabox{
+	margin: 0 auto !important;
+	display: flex;
+	background-color: #fff;
+}
+.infos{
+	height:100%;
+	background-color: #023750;
+	width:350px;
+}
 
-background-color: #fff;
+.separatorhorizontal{
+	width: 70%;
+	height: 0.5px;
+	background-color:#254761;
+	margin: 0 auto !important;
+	margin-top: 8% !important;
+}
+
+#dados{
+	width: 50%;
+	padding-left: 80px;
+		margin-top:7.5%;
 
 }
-.imagemform{
-	padding: 100px 5% 0 0 ;
+#dados h2{
+	font-size: 23px;
+	color: #d7a721;
+	font-weight: 700;
 
 }
-#am{
-	color: #fcc72f;
-	font-size: 20px;
-	font-weight: 900;
-}
-.imagemform p{
-	text-align: center;
-	color: #002739;
-	font-weight: 350;
-	font-size: 17px;
-	margin-top: 10px;
-}
-.imagemform img{
-	width: 650px;
-	border-radius: 15px;
-	border-radius: 0px 49px 0px 50px;
-	-webkit-border-radius: 0px 49px 0px 50px;
-	-moz-border-radius: 0px 49px 0px 50px;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-	
+#dados p{
+	color:#e3e3e3;
+	padding-top: 5%;
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	width: 200px;
 }
 .interface{
-	width: 500px;
-
+	width: 100%;
+	padding-left: 30px;
+}
+.separatorvertical{
+    height: 1000px;
+    width:1px;
+	height: 90%;
 }
 section.formulario{
 	padding: 80px 4%;
@@ -1040,7 +1104,6 @@ section.formulario{
 
 .titulo2{
 	padding: 40px 0 0 0;
-
 	text-align: center;
 }
 
@@ -1052,7 +1115,6 @@ form{
 	flex-direction: column;
 	gap: 10px;
 	margin-top: 40px;
-
 }
 
 form input, textarea{
@@ -1109,7 +1171,7 @@ form .btn-enviar button{
 form .btn-enviar:hover{
 	transform: scale(1.01);
 	background-color: #135577;
-	transition: 0.4s;
+	transition: 0.7s;
 	color: #fff;
 
 }

@@ -1113,8 +1113,8 @@ form .btn-enviar:hover{
       .containeralb .image-containeralb .image {
         height: 250px;
         width: 350px;
-        border: 5px solid white;
-        box-shadow: 0 5px 15px black;
+        border: 2.5px solid white;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.378);
         overflow: hidden;
         cursor: pointer;
       }

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="estilos/estilo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="imagex/png" href="imgs/logospng/logo site.png">
     <meta property="og:image" content=""/><!-- COLOCAR UMA LOGO AQUI PARA APARECER A MINIATURA AO COMPARTILHAR COMO LINK -->
@@ -12,7 +14,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-      <!-- MENU -->
+      <!-- MENU  -->
+    </section>
   <nav>
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
@@ -27,28 +30,72 @@
       <li><a href="contato.html">CONTATO</a></li>
     </ul>
   </nav>
-  <section></section>
+  <section>
 <!-- FIM DO MENU -->
 <!--Botão whatsapp-->
 <a href="https://wa.me/5555219725872" target="_blank">
   <div class="btn-whatsapp pulsaDelay"><i class="fa fa-whatsapp"></i></div>
 </a>
 <!--Botão whatsapp-->
+
+<!-- Titulo -->
+
+<div class="titulo">
+  <h1>Galeria de Fotos</h1>
+</div>
+
+</div>
+
+<!-- Titulo -->
+
 <!-- Album -->
-  <section>
-    <div class="tituloalbum">
-        <h1>Galeria de fotos</h1>
-        <div class="separator"></div>
-     </div>
+<div class="containeralb">
+  <div class="image-containeralb">
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.28.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.25.12.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.22.15 (1).jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.22.16.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.27.49.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.27.48.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.37.20.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-08 at 09.34.48.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+    <div class="image"><img src="imgs/WhatsApp Image 2024-03-06 at 12.24.44.jpeg" alt="" /></div>
+  </div>
 
-     <div class="albumx"></div>
+  <div class="popup-image">
+    <span>&times;</span>
+    <img src="" alt="" />
+  </div>
+</div>
 
-    </section>
+<script>
+  document.querySelectorAll(".image img").forEach(image => {
+    image.onclick = () => {
+      document.querySelector(".popup-image").style.display = "block";
+      document.querySelector(".popup-image img").src =
+        image.getAttribute("src");
+    };
+  });
+
+  document.querySelector(".popup-image span").onclick = () => {
+    document.querySelector(".popup-image").style.display = "none";
+  };
+</script>
+
+
+
 <!-- Fim do Album -->
 
 <!-- FIM DO FORMULARIO -->
 
-<!---RODAPÉ-->
+<!---RODAPÉ  -->
 <div class="container">
   <div class="blocordp">
       <div class="rodape">

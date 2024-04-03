@@ -841,6 +841,10 @@ form .btn-enviar{
 	background-color: #fcc72f;
 	
 }
+.titulo img{
+	width: 7%;
+	height: 7%;
+}
 .titulo h1{
 	text-align: center;
 	color: rgb(4, 42, 62);
@@ -951,8 +955,22 @@ form .btn-enviar{
 /* ESTILO DO FORMULARIO */
 .formulario{
 	display: flex;
+	background-color:#ffffff;
+
+}
+.caixabox{
 	width: 1366px;
 	margin: 0 auto !important;
+	display: flex;
+	height: 625px;
+	padding: 10px 50px 80px 50px;
+	margin-left: -15px;
+	
+-webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
+box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.19);
+
+background-color: #fff;
 
 }
 .imagemform{
@@ -961,11 +979,13 @@ form .btn-enviar{
 }
 #am{
 	color: #fcc72f;
+	font-size: 20px;
+	font-weight: 900;
 }
 .imagemform p{
 	text-align: center;
 	color: #002739;
-	font-weight: 750;
+	font-weight: 350;
 	font-size: 17px;
 	margin-top: 10px;
 }
@@ -1033,18 +1053,21 @@ form textarea::placeholder{
 
 
 form .btn-enviar{
-	margin-top: 20px;
-	text-align: left;
-	
-}
-
-form .btn-enviar input{
+	margin-top: 5px;
+	text-align: center;
+	margin-left: 10px;
 	width: 120px;
 	background-color: #fcc72f;
+	height: 40px;
 	color: #022d4d;
 	font-weight: 700;
 	cursor: pointer;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	border: none;
+	border-radius: 10px;
+}
+
+form .btn-enviar button{
 }
 
 
@@ -1052,9 +1075,9 @@ form .btn-enviar input{
 	form .btn-enviar:hover{
   
 }
-form .btn-enviar input:hover{
+form .btn-enviar:hover{
 	transform: scale(1.01);
-	background-color: #fcc72f;
+	background-color: #135577;
 	transition: 0.4s;
 	color: #fff;
 
@@ -1063,17 +1086,87 @@ form .btn-enviar input:hover{
 /*  FIM DO ESTILO DO FORMULARIO */
 
 /* ALBUM */
-	.tituloalbum{
-		padding-top: 100px;
-	}
-	.tituloalbum h1{
-		text-align: center;
-	}
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-	.album{
+	
+      .containeralb {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 70px;
+		padding-top: 50px;
+		margin: 0 auto;
+		width: 98%;
+      }
 
-	}
+      .containeralb .image-containeralb {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        padding: 10px;
+      }
 
-	.album img{
-	}
+      .containeralb .image-containeralb .image {
+        height: 250px;
+        width: 350px;
+        border: 5px solid white;
+        box-shadow: 0 5px 15px black;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      .containeralb .image-containeralb .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.2s linear;
+      }
+      .containeralb .image-containeralb .image:hover img {
+        transform: scale(1.1);
+      }
+
+      .containeralb .popup-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.702);
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        display: none;
+      }
+      .containeralb .popup-image span {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        cursor: pointer;
+        z-index: 100;
+      }
+
+      .containeralb .popup-image img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid white;
+        border-radius: 5px;
+        width: 300px;
+        object-fit: cover;
+      }
+
+      @media (max-width: 768px) {
+        .containeralb .popup-image img {
+          width: 95%;
+        }
+      }
+   
+
+
 /* ALBUM */

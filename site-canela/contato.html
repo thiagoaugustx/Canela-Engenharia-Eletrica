@@ -39,24 +39,25 @@
 
 <!-- FORMULARIO -->
   <section class="formulario">
+    <div class="caixabox">
     <div class="imagemform">
       <img src="imgs/projetoeestudo.jpg" alt="Imagem de um projeto de Elétrica">
-    <p>Entraremos em contato com você. <b id="am">Nos envie o seu projeto!</b></p>
+    <p>Preencha o formulário e nós. <b id="am">Entraremos em contato!</b></p>
     </div>
     <div class="interface">
       <div class="titulo2"><h1>Entraremos em contato!</h1>
           <div class="separator"></div>
       </div>
       
-      <form method="POST" action="https://formspree.io/xwkgrooy">
-
-        <input type="text" name="nome" placeholder="Nome Completo">
-        <input type="text" name="Email" placeholder="E-mail">
+      <form action="https://formspree.io/f/xwkgrooy" method="post">
+        <input type="text" name="nome" placeholder="Nome Completo" required>
+        <input type="email" name="Email" placeholder="E-mail" required>
         <input type="number" name="telefone" placeholder="Telefone">
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-        <button type="submit">Enviar</button>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        <button class= btn-enviar type="submit">Enviar</button>
+
       </form>
-      
+      </div>
     </div>
   </section>
 <!-- FIM DO FORMULARIO -->

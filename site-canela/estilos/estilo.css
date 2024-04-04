@@ -461,8 +461,8 @@ nav{
 }
 .formulario{
 	width: 100% !important;
-	
 	display: block !important;
+	height: 1300px !important;
 }
 
 .infos{
@@ -494,15 +494,17 @@ form .btn-enviar{
 		display: block;
 		flex-direction: column;
 		width: 100% !important;
-
 	}
 	.boxs{
+		height: 220px !important;
+
 	}
 
 /* FIM DOS BOXS */
 
 /* SOBRE NÓS */
 .containersb{
+	height: 1450px !important;
 
 }
 
@@ -524,20 +526,25 @@ form .btn-enviar{
 	width: 300px !important;
 
 }
-.fotossb{
+.fotossb {
+	
+}
+.fotossb img{
+	width: 100% !important;
+	margin-top: -50px !important;
 
 }
 /*FIM DO SOBRE NÓS */
 
 /*RODAPE */
 	.blocordp{
-		margin-top: 550px !important;
-		height: 150px !important;
 		width: 100% !important;
+		
 	}
 	.rodape{
 		display: block !important;
 		height: 150px !important;
+		
 	}	
 	.logordp{
 		width: 100% !important;
@@ -571,7 +578,7 @@ form .btn-enviar{
 	.redes{
 		display: block;
 		width: 100%;
-		margin-top: -95px !important;
+		margin-top: -75px !important;
 		
 	}
 	.redes h5{

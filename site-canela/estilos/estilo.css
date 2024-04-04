@@ -531,23 +531,26 @@ form .btn-enviar{
 
 /*RODAPE */
 	.blocordp{
-		margin-top: 100% !important;
 		margin-top: 550px !important;
-
+		height: 150px !important;
+		width: 100% !important;
 	}
 	.rodape{
 		display: block !important;
+		height: 150px !important;
 	}	
 	.logordp{
 		width: 100% !important;
 		padding-left: 45%;
+		
 	}
 	.logordp a{
 
 	}
 	.logordp a img{
 		width: 80px;
-		margin-top: -40px;
+		margin-left: -15px;
+		margin-top: -40px !important;
 	}
 
 	.listrodape{
@@ -568,7 +571,7 @@ form .btn-enviar{
 	.redes{
 		display: block;
 		width: 100%;
-		margin-top: -5px !important;
+		margin-top: -95px !important;
 		
 	}
 	.redes h5{

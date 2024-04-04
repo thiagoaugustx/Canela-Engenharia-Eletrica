@@ -21,10 +21,11 @@ html{
 	width: 10px;
 	height: 10px;
 }
+
 nav{
 	background: #002739f3;
 	height: 80px;
-	width: 100%;
+	width:100%;
 	position: fixed;
 	z-index: 12;
 
@@ -512,7 +513,7 @@ form .btn-enviar{
 
 /* SOBRE NÓS */
 .containersb{
-	height: 1450px !important;
+	height: 200px !important;
 
 }
 
@@ -557,13 +558,13 @@ form .btn-enviar{
 	}
 	.rodape{
 		display: block !important;
-		height: 150px !important;
-		
+		height: 100% !important;
+		width: 100% !important;
 	}	
 	.logordp{
-		width: 100% !important;
-		padding-left: 45%;
-		
+		width: 40px !important;
+		margin: 0 auto !important;		
+		height: 10px!important;
 	}
 	.logordp a{
 
@@ -575,9 +576,12 @@ form .btn-enviar{
 	}
 
 	.listrodape{
-		width: 100%;
-		z-index: 11;
+		display: none;
 		
+	}
+	.separatorrdp{
+		width: 0px !important;
+		height: 0px !important;
 	}
 	.listrodape ul li{
 		color: #fff;
@@ -591,19 +595,16 @@ form .btn-enviar{
 		
 	}
 	.redes{
-		display: block;
-		width: 100%;
-		margin-top: -75px !important;
-		
+		margin: 0 !important;
+	}
+	.redessociais{
 	}
 	.redes h5{
 		font-size: 10px;
 		text-align: center;
 	}
-	.redes a{
-		padding-left:15%;
-		padding-right: -15%;
-
+	.redes a {
+		padding-left: 70px !important;
 	}
 	.copy{
 		margin: 0 auto !important;
@@ -619,9 +620,32 @@ form .btn-enviar{
 		color: #f8f8f8 !important;
 		font-weight: 600 !important;
 	}
-	.dadosrdp{
 
+	#boxinfo{
+		text-align: center !important;
 	}
+
+	#boxinfo p{
+		width:none;
+		margin: 0 auto !important;
+	}	
+
+
+	.infosrodape{
+		
+	}
+
+	.horario{
+		margin: 0 auto !important;
+		text-align: center !important;
+		height: 75px;
+	}
+
+	
+
+
+
+
 }
 
 
@@ -902,6 +926,7 @@ form .btn-enviar{
 	margin: 0 auto !important;
 	justify-content: space-around;
 	height: 250px;
+	width: 1366px;
 }
 .logordp img{
 	width: 150px;
@@ -939,7 +964,7 @@ form .btn-enviar{
 
 }
 .redes{
-	margin-top: 80px;
+	margin-top: 45px;
 	color: #d7a721;
 	
 }
@@ -1008,6 +1033,68 @@ form .btn-enviar{
 	margin-top: -6px;	
 }
 
+
+.infosrodape{
+	padding-top:35px;
+}
+
+.boxinfo{
+	width: 20px;
+	
+}
+
+#boxinfo h6{
+	font-weight: 800;
+	color: #d7a721;
+	font-size:12px;
+}
+
+#boxinfo p{
+	width: 150px;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight:400;
+	font-style: italic;
+}
+
+.horario{
+	width: 170px;
+	margin-top:75px;
+	font-stretch: condensed;
+}
+
+.horario h4{
+	font-weight: 800;
+	color: #d7a721;
+	font-size:13.5px;
+	height:25px;
+	width: 170px;
+
+}
+
+.horario h6{
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	font-style: italic;
+	height:20px;
+
+}
+
+.horario p{
+	width: 150px;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight:400;
+	font-style: italic;
+}
+
+.separatorrdp{
+	width: 2px;
+	background-color: #254761;
+	height: 200px;
+	margin-top: 20px;
+}
 
 /* FIM DO RODAPE */
 

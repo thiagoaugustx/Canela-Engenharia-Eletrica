@@ -417,6 +417,7 @@ nav{
   .cards{
     display: block;
 	margin-top: 50px !important;
+	width: 100%;
 }
   .box{
 	margin-top: 50px !important;
@@ -516,21 +517,27 @@ form .btn-enviar{
 }
 
 .sobresb{
-	width: 300px !important;
+	width: 100% !important;
 	flex-direction: column-reverse;
 	padding-bottom: 100px;
 }
 
 .textos{
 	width: 100% !important;
+	margin: 0 auto !important;
+	padding-top: 20px;
 }
 
 .textos h2{
-	width: 300px !important;
+	width: 70% !important;
+	text-align: center !important;
+	margin-left: 80px;
 }
 
 .textos p{
-	width: 300px !important;
+	width: 90% !important;
+	text-align: center !important;
+	margin-left: 15px;
 
 }
 .fotossb {

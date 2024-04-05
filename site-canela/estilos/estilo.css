@@ -1599,39 +1599,52 @@ form .btn-enviar:hover{
 /* ABA SERVIÇOS */
 
 	  .containersv{
-
+		width: 100% !important;
+		padding-top: 120px;
 	  }
 	  
 	  .servicos{
-		
+		width: 1466px !important;
+		margin: 0 auto !important;
+		justify-content: space-around;
 	  }
 
-	  .boxservicosE{
+	  #boxservicosE,  #boxservicosD{
 		display: flex;
-	  }
-
-	  .boxservicosD{
-		display: flex;
-	  }
-
-
-	  .txtservicos{
-
-	  }
-	  .txtservicos h1{
-
-	  }
-	  .txtservicos p{
+		margin: 0 auto !important;
+		justify-content:  space-evenly;
+		padding: 80px;
 
 	  }
 
+	#linha{
+	display: flex;
+	align-items: var(--icon-vertical-align, center)
+	}
 
-	  .imgservicos{
+
+	  #txtservicos{
+
+	  }
+	  #txtservicos h4{
+		font-size: 35px;
+		width: 350px;
+	  }
+	  #txtservicos p{
+		width: auto;
+		font-size: 20px;
+	  }
+
+	  .boxservicosD i{
+		color: #000000;
+	  }
+
+	  #imgservicos{
 
 	  }
 
-	  .imgservicos img{
-		
+	  #imgservicos img{
+		width: 400px
 	  }
 
 /* FIM DA ABA SERVIÇOS */

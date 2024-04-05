@@ -1595,3 +1595,43 @@ form .btn-enviar:hover{
 
 
 /* ALBUM */
+
+/* ABA SERVIÇOS */
+
+	  .containersv{
+
+	  }
+	  
+	  .servicos{
+		
+	  }
+
+	  .boxservicosE{
+		display: flex;
+	  }
+
+	  .boxservicosD{
+		display: flex;
+	  }
+
+
+	  .txtservicos{
+
+	  }
+	  .txtservicos h1{
+
+	  }
+	  .txtservicos p{
+
+	  }
+
+
+	  .imgservicos{
+
+	  }
+
+	  .imgservicos img{
+		
+	  }
+
+/* FIM DA ABA SERVIÇOS */

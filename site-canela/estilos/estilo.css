@@ -62,6 +62,16 @@ nav{
 	transition: 0.7s;
 	border-radius: 10px;
   }
+  .menu ul li:hover{
+	background: #fcc52fc3;
+	transition: 0.7s;
+	height: 5px;
+  }
+  #logordphv, a:hover {
+	background: #fc2f2f00;
+	transition: 0.7s;
+	border-radius: 10px;
+  }
   .checkbtn{
 	font-size: 30px;
 	color: white;
@@ -412,13 +422,118 @@ nav{
     border-top-right-radius: 20px;
 }
 
+/* RESPONSIVO TABLET */
+
+@media screen and (max-width: 1023px) and (min-width: 769px){
+	.cards{
+		display: flex;
+		margin-top: 50px !important;
+		width: 96%;
+	}
+
+	.box{
+		margin-top: 50px !important;
+		width: 185px !important;
+		height: 300px !important;
+	}
+	.box .title_and_description h1{
+		font-size: 15px;
+	}
+
+	.title_and_description .description button {
+		font-size: 15px;
+		margin-top: 5px;
+		background-color: #fcc72f;
+		border: none;
+		border-radius: 10px;
+	}
+
+	.quemsomos{
+		width: 96% !important;
+	}
+
+	.containersb{
+		width: 100% !important;
+	}
+	.rodape{
+		width: 100% !important;
+	}
+	.boxsobre{
+		width: 100% !important;
+	}
+	.boxs{
+		padding-left: 30px;
+	}
+	.sobresb{
+		display: block !important;
+		flex-direction: column-reverse !important;
+		width: 100% !important;
+    	margin: 0 auto !important;
+	}
+	.textos {
+		text-align: center;
+		align-content: space-between;
+		width: 500px;
+		margin: 0 auto !important;
+		padding-bottom: 50px;
+	}
+	.fotossb img {
+	    width: 500px !important;
+		margin-right:auto;
+    	margin-top: auto;
+    	border-radius: 10px;
+	}
+	.textos p {
+		padding: 30px 40px 0 0;
+		word-break: break-word;
+		width: 500px;
+	}
+
+	.textos h2 {
+		color: rgb(4, 42, 62);
+		font-size: 25px;
+		padding-top: 30px;
+	}
+
+	nav ul li a{
+		color: white;
+		font-size: 15px !important;
+		padding: 5px;
+		border-radius: 10px !important;
+		text-transform: uppercase;
+		font-weight: 600;
+	  
+	  }
+
+	  .interface {
+		width: 100%;
+		padding-left: 30px;
+	}
+	
+	form {
+		max-width: 500px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 10px;
+		margin-top: 40px;
+		margin-right: 20px !important;
+	}
+	
+}
+
+/* FIM DO RESPONSIVO TABLET */
+
+/* RESPONSIVO CELULAR */
 
 @media screen and (max-width: 768px){
   
   .cards{
     display: block;
-	margin-top: 50px !important;
 	width: 100%;
+	margin-top: -60px !important;
+
 }
   .box{
 	margin-top: 50px !important;
@@ -495,6 +610,10 @@ form .btn-enviar{
 	text-align: center !important;
 }
 
+
+/* RESPONSIVO CELULAR */
+
+
 /* BOXS */
 	.containerbx{
 
@@ -536,11 +655,10 @@ form .btn-enviar{
 	margin: 0 auto !important;
 }
 
-.textos p{
-	width: 90% !important;
-	text-align: center !important;
-	margin-left: 15px;
-
+.textos p {
+    width: 80% !important;
+    text-align: center !important;
+    margin: 0 auto;
 }
 .fotossb {
 }
@@ -573,6 +691,10 @@ form .btn-enviar{
 		width: 80px;
 		margin-left: -15px;
 		margin-top: -40px !important;
+		
+	}
+	.logordp img{
+
 	}
 
 	.listrodape{
@@ -606,6 +728,13 @@ form .btn-enviar{
 	.redes a {
 		padding-left: 70px !important;
 	}
+
+	.redes a img {
+		width: 45px;
+
+	}
+	
+
 	.copy{
 		margin: 0 auto !important;
 
@@ -933,8 +1062,17 @@ form .btn-enviar{
 }
 .logordp img{
 	width: 150px;
+
 }
 
+.logordp img:hover{
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	scale: 1.1;
+	transition: 1.2s;
+	border-radius: 20px;
+}
+
+	
 .logordp{
 	padding-top: 50px;
 }
@@ -1151,7 +1289,6 @@ form .btn-enviar{
 
 }
 .textos p{
-	padding: 30px 0 0 0;
 	word-break:break-word;
 	width: 550px;
 }
@@ -1163,8 +1300,6 @@ form .btn-enviar{
 .fotossb img{
 	width: 420px;
 	border-radius: 10px;
-	margin-right: 45px;
-	margin-top: 15px;
 }
 
 /* FIM DO SOBRE NOS */

@@ -424,7 +424,7 @@ nav{
 
 /* RESPONSIVO TABLET */
 
-@media screen and (max-width: 1023px) and (min-width: 769px){
+@media screen and (max-width: 1024px) and (min-width: 769px){
 	.cards{
 		display: flex;
 		margin-top: 50px !important;

@@ -513,9 +513,9 @@ form .btn-enviar{
 
 /* SOBRE NÓS */
 .containersb{
-	height: 200px !important;
-
-}
+	display: block !important;
+	flex-direction: column !important;
+	}
 
 .sobresb{
 	width: 100% !important;
@@ -527,12 +527,13 @@ form .btn-enviar{
 	width: 100% !important;
 	margin: 0 auto !important;
 	padding-top: 20px;
+	height: 0% !important;
 }
 
 .textos h2{
 	width: 70% !important;
 	text-align: center !important;
-	margin-left: 80px;
+	margin: 0 auto !important;
 }
 
 .textos p{
@@ -542,11 +543,10 @@ form .btn-enviar{
 
 }
 .fotossb {
-	
 }
 .fotossb img{
 	width: 250px !important;
-	margin-top: -50px !important;
+	margin: 0 auto !important;
 
 }
 /*FIM DO SOBRE NÓS */
@@ -632,6 +632,9 @@ form .btn-enviar{
 
 
 	.infosrodape{
+		
+	}
+	.containerrdp{
 		
 	}
 

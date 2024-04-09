@@ -813,6 +813,8 @@ form .btn-enviar{
 /* FIM DOS RESPONSIVO */
 
 
+
+
 #quemsomos{
 	text-align: center;
 	margin-top: 60px;
@@ -906,8 +908,10 @@ form .btn-enviar{
 	opacity: 1;
 	transition: 0.3s;
 	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
+	
 }
+
+
 /* QUEM SOMOS */
 
 /* NOSSOS CLIENTES */

@@ -550,11 +550,11 @@ nav{
  .txtp{
 	width: 100% !important;
 	margin-top: -80px;
-	text-align: center !important;
+	text-align: left !important;
 
  }
   .txtp p{
-	text-align: center !important;
+	text-align: left !important;
 	padding-left: 30px;
   }
  .txtimg{

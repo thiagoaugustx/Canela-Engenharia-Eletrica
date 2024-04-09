@@ -776,13 +776,41 @@ form .btn-enviar{
 	}
 
 	
+/* RESPONSIVO SERVIÇOS */
+	.containersv{
 
+	}
 
+	.servicos{
+		display: block !important;
+		margin-left: 0 auto !important;
 
+	}
+
+	#boxservicosE{
+		display: block !important;
+		margin-top: -50px !important;
+	}
+
+	#boxservicosD{
+		flex-direction: column-reverse !important;
+		margin-top: 50px !important;
+
+	}
+
+	#imgservicos img{
+		width: 35% !important;
+		
+	}
+	#imgservicos{
+		margin: 0px 0.3% auto !important;
+		padding-top: 20px;
+		padding-left: 40px;
+	}
 
 }
 
-
+/* FIM DOS RESPONSIVO */
 
 
 #quemsomos{
@@ -1176,6 +1204,17 @@ form .btn-enviar{
 	margin-top: -6px;	
 }
 
+.copy a{
+	color: #2f1567;
+	text-decoration:underline
+}
+
+.copy a:hover{
+	color: fff;
+	text-decoration:none;
+	font-size: 12px;
+	transition: 1s;
+}
 
 .infosrodape{
 	padding-top:35px;
@@ -1254,6 +1293,8 @@ form .btn-enviar{
 	background-color: #fcc72f;
 	
 }
+
+
 .titulo img{
 	width: 7%;
 	height: 7%;
@@ -1599,40 +1640,115 @@ form .btn-enviar:hover{
 /* ABA SERVIÇOS */
 
 	  .containersv{
-		width: 100% !important;
-		padding-top: 120px;
-	  }
-	  
-	  .servicos{
-		width: 1466px !important;
+		padding-top: 50px;
 		margin: 0 auto !important;
+		width: 100% !important;
+		 }
+
+		.txtservicos{
+			animation:  4s;
+			
+		 }
+
+		 .servicos{
+			font-size: 1.5rem;
+			width: 1366px x;
+			margin: 0 auto !important;
+		  }
+		  
+		  #boxservicosD{
+			animation: appear 3ms ease-in-out;
+			animation-timeline: view();
+			animation-range: cover 0% cover 30%;
+		  }
+
+		  @keyframes appear {
+			from {
+			  opacity: 0;
+			  translate: -100vw 0;
+			}
+			
+			to {
+			  opacity: 1;
+			  translate: 0 0;
+			}
+		  }
+
+		  #boxservicosE{
+			animation: appear2 3ms ease-in-out;
+			animation-timeline: view();
+			animation-range: cover 0% cover 10%;
+		  }
+
+		  @keyframes appear2{
+			from {
+			  opacity: 0;
+			  translate: 100vw 0;
+			}
+			
+			to {
+			  opacity: 1;
+			  translate: 0 0;
+			}
+		  }
+
+
+
+	  .servicos{
 		justify-content: space-around;
 	  }
 
 	  #boxservicosE,  #boxservicosD{
 		display: flex;
-		margin: 0 auto !important;
-		justify-content:  space-evenly;
-		padding: 80px;
-
+		height: auto;
+		padding-bottom: 100px;
+		width: 900px;
+margin: 0 auto !important;
 	  }
 
-	#linha{
-	display: flex;
-	align-items: var(--icon-vertical-align, center)
+	.listv{
+		display: flex;
 	}
-
-
+	span{
+		display: flex;
+		padding-top: 2px;
+		color:#fcc72f;
+	}
 	  #txtservicos{
-
+		padding-left:50px;
+		width: 500px;
+		animation: appearance: 1s;;
+	}
+	  @keyframes appear{ 
+		from { 
+			opacity:0; 
+			translate: -100vw 0;
+		}
+		to{
+			opacity: 1;
+			translate: 0 0;
+		}
+	
 	  }
+	  
+	  .separatorsv{
+		background-color:#fcc72f;
+		width: 40%;
+		height: 2.5px;
+		margin-top: 5.5px;
+	  }
+
 	  #txtservicos h4{
 		font-size: 35px;
-		width: 350px;
+		width: 285px;
+		color:#0d3e63;
 	  }
 	  #txtservicos p{
 		width: auto;
 		font-size: 20px;
+		width: 330px;
+		color: #333;
+		
 	  }
 
 	  .boxservicosD i{
@@ -1644,7 +1760,27 @@ form .btn-enviar:hover{
 	  }
 
 	  #imgservicos img{
-		width: 400px
+		width: 500px;
+		border-radius: 10px;
+		box-shadow: 5px 5px 24px -3px rgba(0,0,0,0.55)
+		;
 	  }
+		
 
 /* FIM DA ABA SERVIÇOS */
+
+::-webkit-scrollbar{
+	width:	10px;
+	border-radius: 20px;
+	background-color:#b9b9b986;
+}
+::-webkit-scrollbar-thumb{
+	width:	10px;
+	background-color:#fcc52fe6;
+	border-radius: 50px;
+
+}
+
+@-webkit-keyframes {
+	
+}

@@ -1715,11 +1715,12 @@ margin: 0 auto !important;
 	}
 	span{
 		display: flex;
-		padding-top: 2px;
+		padding-top: 5px;
 		color:#fcc72f;
 	}
 	  #txtservicos{
 		padding-left:50px;
+		padding-top: 20px;
 		width: 500px;
 		animation: appearance: 1s;;
 	}
@@ -1743,15 +1744,16 @@ margin: 0 auto !important;
 	  }
 
 	  #txtservicos h4{
-		font-size: 35px;
-		width: 285px;
+		font-size: 30px;
+		width: 320px;
 		color:#0d3e63;
+		font-weight: 700;
 	  }
 	  #txtservicos p{
-		width: auto;
-		font-size: 20px;
-		width: 330px;
+		font-size: 15px;
+		width: 280px;
 		color: #333;
+		margin-top: 5px;
 		
 	  }
 
@@ -1760,11 +1762,11 @@ margin: 0 auto !important;
 	  }
 
 	  #imgservicos{
-
+		margin-top: 5px;
 	  }
 
 	  #imgservicos img{
-		width: 500px;
+		width: 520px;
 		border-radius: 10px;
 		box-shadow: 5px 5px 24px -3px rgba(0,0,0,0.55)
 		;

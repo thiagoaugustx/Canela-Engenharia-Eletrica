@@ -720,6 +720,7 @@ form .btn-enviar{
 		margin: 0 !important;
 	}
 	.redessociais{
+		margin-left: 150px;
 	}
 	.redes h5{
 		font-size: 10px;
@@ -778,34 +779,58 @@ form .btn-enviar{
 	
 /* RESPONSIVO SERVIÇOS */
 	.containersv{
-
+		width: 100% !important;
+		margin: 0 auto !important;
 	}
 
 	.servicos{
 		display: block !important;
-		margin-left: 0 auto !important;
+		width: 100% !important;
 
 	}
 
 	#boxservicosE{
 		display: block !important;
-		margin-top: -50px !important;
+		margin-top: -122px !important;
+		width: 100% !important;
+
 	}
 
 	#boxservicosD{
 		flex-direction: column-reverse !important;
-		margin-top: 50px !important;
+		width: 100% !important;
 
 	}
+
 
 	#imgservicos img{
-		width: 35% !important;
-		
+		width: 94% !important;
+		padding:2px;
 	}
 	#imgservicos{
-		margin: 0px 0.3% auto !important;
+		width: 100% !important;
+		padding-left: 20px;
 		padding-top: 20px;
-		padding-left: 40px;
+	}
+
+	#txtservicos{
+		width: 100% !important;
+		margin-top: -50px;
+	}
+
+	#txtservicos h4{
+	}
+
+	#txtservicos p{
+		width: 94% !important;
+	}
+
+	.separatorsv{
+	}
+
+	.listv{
+		width: 100% !important;
+
 	}
 
 }
@@ -1157,6 +1182,8 @@ form .btn-enviar{
 	box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);
 	-webkit-box-shadow: 0px 0px 5px 1px rgba(250,206,85,0.75);}
 	
+	
+
 	.dadosrdp{
 	
 	}
@@ -1707,7 +1734,7 @@ form .btn-enviar:hover{
 		height: auto;
 		padding-bottom: 100px;
 		width: 900px;
-margin: 0 auto !important;
+	margin: 0 auto !important;
 	  }
 
 	.listv{
@@ -1735,7 +1762,9 @@ margin: 0 auto !important;
 		}
 	
 	  }
+	  	
 	  
+
 	  .separatorsv{
 		background-color:#fcc72f;
 		width: 40%;

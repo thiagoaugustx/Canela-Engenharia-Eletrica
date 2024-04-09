@@ -1763,10 +1763,13 @@ margin: 0 auto !important;
 
 	  #imgservicos{
 		margin-top: 5px;
+		width: 520px;
 	  }
 
 	  #imgservicos img{
+		
 		width: 520px;
+		height: 350px;
 		border-radius: 10px;
 		box-shadow: 5px 5px 24px -3px rgba(0,0,0,0.55)
 		;

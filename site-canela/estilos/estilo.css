@@ -1560,8 +1560,15 @@ section.formulario{
 }
 
 .titulo2{
-	padding: 40px 0 0 0;
+	padding: 20px 0 0 0;
 	text-align: center;
+	font-size: 15px;
+	color: #002739;
+}
+
+.titulo2 h1{
+	font-weight: 800;
+
 }
 
 form{

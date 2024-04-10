@@ -1018,11 +1018,17 @@ form .btn-enviar{
 .slider__nav:checked:nth-of-type(4) ~ .slider__inner {
   left: -300%;
 }
+.slider__nav:checked:nth-of-type(5) ~ .slider__inner {
+	left: -400%;
+  }
+  .slider__nav:checked:nth-of-type(6) ~ .slider__inner {
+	left: -500%;
+  }
 .slider__inner {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 400%;
+	width: 600%;
 	height: 100%;
 	-webkit-transition: left 0.4s;
 	transition: left 0.4s;

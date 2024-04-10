@@ -642,7 +642,7 @@ form .btn-enviar{
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto !important;
+	padding-left: 10px;
 }
 
 .slider__inner {
@@ -1037,7 +1037,7 @@ form .btn-enviar{
       -ms-flex-pack: center;
           justify-content: center;
 		  margin: 0 auto !important;
-		  padding-left: 0px !important;
+		  padding-left: 8% !important;
 		}
 
 		#sliders{visibility: hidden;}

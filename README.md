@@ -1,4 +1,5 @@
 # Canela Engenharia Elétrica
- Web site para CANELA ENGENHARIA ELÉTRICA
+Primeiro site desenvolvido por mim.
 
-Repositório criado em 29/02/2024
+Projeto para a Canela Engenharia Elétrica onde pude desenvolver um pouco do que aprendi no curso de Programador Front-End no SENAI. 
+Após o curso, desenvolvi algumas outras habilidades e conhecimentos e hoje estou seguindo na área. 

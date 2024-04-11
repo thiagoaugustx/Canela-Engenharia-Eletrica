@@ -696,6 +696,8 @@ nav{
 .formulario{
 	width: 100% !important;
 	display: block !important;
+	margin-bottom: 40px;
+
 	height: 1300px !important;
 }
 

@@ -60,7 +60,10 @@ nav{
   .ativo, a:hover {
 	background: #fcc52fc3;
 	transition: 0.7s;
-	border-radius: 10px;
+	border-top-left-radius: 20px 100% !important;
+    border-bottom-left-radius: 20px 100% !important;
+    border-top-right-radius: 20px 100% !important;
+    border-bottom-right-radius: 20px 100% !important;
   }
   .menu ul li:hover{
 	background: #fcc52fc3;
@@ -1113,6 +1116,7 @@ form .btn-enviar{
     text-align: center;
     margin-top: 110px;
     margin: 0 auto;
+	
 
 }
 .separatorNS {
@@ -1149,6 +1153,7 @@ form .btn-enviar{
           justify-content: center;
 		  margin: 0 auto !important;
 		  padding-left: 8% !important;
+		  
 		}
 
 		#sliders{visibility: hidden;}
@@ -1196,6 +1201,7 @@ form .btn-enviar{
 	-webkit-flex-flow: row nowrap;
 		-ms-flex-flow: row nowrap;
 			flex-flow: row nowrap;
+			
   }
   .slider__contents {
 	padding: 2rem;
@@ -1220,10 +1226,12 @@ form .btn-enviar{
 		-ms-flex-pack: center;
 			justify-content: center;
 			height: 300px;
+			
   }
   .slider__image {
 	font-size: 2.7rem;
 		color: #2196F3;
+		
   }
 .slider__contents img{
     width: 200px;
@@ -1241,6 +1249,7 @@ form .btn-enviar{
   margin: 2rem 0 1rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
+  
 }
 
 
